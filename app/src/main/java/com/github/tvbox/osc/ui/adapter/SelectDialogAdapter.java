@@ -85,14 +85,14 @@ public class SelectDialogAdapter<T> extends ListAdapter<T, SelectDialogAdapter.S
         String name = dialogInterface.getDisplay(value);
         TextView view = holder.itemView.findViewById(R.id.tvName);
         if (position == select) 
-           name = "❈  " + name;
         {
+            name = "❈  " + name;
             view.setTextColor(0xff02f8e1);
             view .setTypeface(Typeface.defaultFromStyle(Typeface.BOLD));
         };
         else 
-           name = "○ " + name;
         {
+            name = "○ " + name;
             view.setTextColor(Color.WHITE);
             view .setTypeface(Typeface.defaultFromStyle(Typeface.NORMAL));
         }
