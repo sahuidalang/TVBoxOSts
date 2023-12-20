@@ -89,7 +89,7 @@ public class SelectDialogAdapter<T> extends ListAdapter<T, SelectDialogAdapter.S
         {
             view.setTextColor(0xff02f8e1);
             view .setTypeface(Typeface.defaultFromStyle(Typeface.BOLD));
-        }
+        };
         else 
            name = "○ " + name;
         {
